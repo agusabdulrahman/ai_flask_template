@@ -1,0 +1,35 @@
+{
+  "message": "Not data for calibration",
+  "error": null,
+  "data": [
+    {
+      "sensor_id": "3e2524f5-e54e-46f8-a702-678ca58eec23",
+      "start_timestamp": "2025-07-01 12:55:00",
+      "end_timestamp": "2025-07-01 13:00:00",
+      "status": "normal",
+      "original_data": [
+        {
+          "timestamp": "Tue, 01 Jul 2025 12:59:15 GMT",
+          "value": 7.760915332671381
+        },
+        {
+          "timestamp": "Tue, 01 Jul 2025 12:58:15 GMT",
+          "value": 7.527787394145255
+        },
+        {
+          "timestamp": "Tue, 01 Jul 2025 12:57:15 GMT",
+          "value": 7.71769420114585
+        },
+        {
+          "timestamp": "Tue, 01 Jul 2025 12:56:15 GMT",
+          "value": 7.742858872499402
+        },
+        {
+          "timestamp": "Tue, 01 Jul 2025 12:55:15 GMT",
+          "value": 7.846323054235435
+        }
+      ],
+      "data_calibrated": []
+    }
+  ]
+}

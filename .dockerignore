@@ -1,0 +1,10 @@
+logs
+.git
+dist
+.env.example
+.dockerignore
+__pycache__
+notebook/
+app/results/*
+reports/
+*.ipynb
