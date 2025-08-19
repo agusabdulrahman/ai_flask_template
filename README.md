@@ -22,9 +22,13 @@ docker compose up -d --build
 
 - Python 3.12
 
+- Mac / Linux / Windows
+
 ```bash
+# Linux or Mac
 python3 -m venv .venv
-or
+
+# Windows (bash)
 python -m venv .venv
 ```
 
@@ -58,25 +62,9 @@ flask-framework/
 │   │   ├── __init__.py
 │   │   └── main_routes.py
 │
-│   ├── sensor/
-│   │   ├── cod/
-│   │   │   ├── model/
-│   │   │   │   ├── model_cod.pkl
-│   │   │   │   └── performance_model_cod.txt
-│   │   │   ├── __ini__.py
-│   │   │   ├── data_cleaning
-│   │   │   ├── predict.py
-│   │   │   ├── train_single_line.py
-│   │   │   └── training_multiline.py
-│   │   └── hrt/
-│   │       ├── model/
-│   │       │   ├── model_hrt.pkl
-│   │       │   └── performance_model_hrt.txt
-│   │       ├── __ini__.py
-│   │       ├── data_cleaning
-│   │       ├── predict.py
-│   │       ├── train_single_line.py
-│   │       └── training_multiline.py
+│   ├── services/
+│   │   └── /
+│   │   │   └── model/
 │   │
 │   ├── utils/
 │   │   ├── __init__.py
@@ -94,5 +82,5 @@ flask-framework/
 ├── Dockerfile
 ├── README.md
 ├── requirements.txt
-└── wsgi.py
+└── app.py
 ```
